@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: yy-wt-patient
+dubbo:
+  registry:
+    address: nacos://nacos.wtzy365.cn:80   #152.136.86.196:8848
+  protocol:
+    port: -1
+server:
+  port: 8002
